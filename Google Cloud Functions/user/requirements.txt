@@ -1,0 +1,9 @@
+functions-framework==3.*
+firebase-functions==0.1.*
+requests==2.*
+google-auth==2.*
+flask
+firebase-admin
+google-auth-httplib2
+google-api-python-client
+google-cloud-firestore
