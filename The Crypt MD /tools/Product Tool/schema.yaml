@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: Product  API
+  description: API for listing products 
+  version: 1.0.0
+
+servers:
+  - url: https://us-central1-biocryptricks.cloudfunctions.net/products
+
+paths:
+  /listProducts:
+    get:
+      summary: List available products in the website
+      operationId: listProducts
+      description: Retrieve available products.
+      parameters:
+        - name: name
+          in: query
+          description: The title of the product
+          required: true
+          schema:
+            type: string
+        - name: price
+          in: query
+          description: The price for the product
+          required: true
+          schema:
+            type: number
+            format: number
+      responses:
+        '200':
+          description: Successful retrieval of available products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    price:
+                      type: number
+                      format: number
+        '400':
+          description: Bad request (e.g., invalid product name )
+        '500':
+          description: Internal server error

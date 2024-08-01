@@ -1,0 +1,727 @@
+{
+  "name": "a6c6107f-c5f8-44cd-97c6-f90334c6078e",
+  "actions": [ {
+    "userUtterance": {
+      "text": "What are Gryts?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/434a50f6-06df-4af0-b464-fe452210918f",
+      "action": "Game Mechanics",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "What are Gryts?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system.",
+          "snippets": [ {
+            "text": "Gryts Economy: The Life Force of Your Crypt Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system. Earning Gryts: Each Trick you complete earns you Gryts, with harder or more complex Tricks rewarding more Gryts than easier ones.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Gryts%20Economy:%20The,than%20easier%20ones."
+          }, {
+            "text": "Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system. Earning Gryts: Each Trick you complete earns you Gryts, with harder or more complex Tricks rewarding more Gryts than easier ones. Weekly Gryt Requirement: Every Crypt, regardless of level, requires a fixed number of Gryts per week to maintain optimal health and well-being. This ensures fairness and allows players who complete more Tricks to accumulate extra Gryts for other purposes. Crypt Vitality: Gryts are essential for your Crypt's health. Failing to meet the weekly requirement weakens your Crypt, limiting its abilities and potentially hindering your progress. Spending Gryts: Excess Gryts can be used for: Crypt Upgrades: Enhance your Crypt's abilities, stats, and performance with various upgrades. Customisation: Personalise your Crypt with unique skins, new AI-generated avatars, clothing, accessories, and other cosmetic options. Marketplace Transactions: Exchange Gryts for discounts on real-world health and wellness products and services in the marketplace.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Gryts%20(GRT)%20are,in%20the%20marketplace."
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction. Trick Categories and Subcategories Each Trick you encounter falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds,Wealth, and Growth. These categories represent different aspects of your well-being and personal development. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness. Gryts Economy: The Life Force of Your Crypt",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Complete%20Tricks:%20Use,of%20Your%20Crypt"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What are Gryts?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system.",
+          "snippets": [ {
+            "text": "Gryts Economy: The Life Force of Your Crypt Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system. Earning Gryts: Each Trick you complete earns you Gryts, with harder or more complex Tricks rewarding more Gryts than easier ones.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Gryts%20Economy:%20The,than%20easier%20ones."
+          }, {
+            "text": "Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system. Earning Gryts: Each Trick you complete earns you Gryts, with harder or more complex Tricks rewarding more Gryts than easier ones. Weekly Gryt Requirement: Every Crypt, regardless of level, requires a fixed number of Gryts per week to maintain optimal health and well-being. This ensures fairness and allows players who complete more Tricks to accumulate extra Gryts for other purposes. Crypt Vitality: Gryts are essential for your Crypt's health. Failing to meet the weekly requirement weakens your Crypt, limiting its abilities and potentially hindering your progress. Spending Gryts: Excess Gryts can be used for: Crypt Upgrades: Enhance your Crypt's abilities, stats, and performance with various upgrades. Customisation: Personalise your Crypt with unique skins, new AI-generated avatars, clothing, accessories, and other cosmetic options. Marketplace Transactions: Exchange Gryts for discounts on real-world health and wellness products and services in the marketplace.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Gryts%20(GRT)%20are,in%20the%20marketplace."
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction. Trick Categories and Subcategories Each Trick you encounter falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds,Wealth, and Growth. These categories represent different aspects of your well-being and personal development. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness. Gryts Economy: The Life Force of Your Crypt",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Complete%20Tricks:%20Use,of%20Your%20Crypt"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Gryts are the points you earn for completing tasks, and they're basically the lifeblood of your Crypt. You need enough Gryts each week to keep your Crypt healthy, or it's game over, mate."
+    }
+  }, {
+    "userUtterance": {
+      "text": "Whats the quickest way to get more Gryts to level up from a newbie to a pro?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/434a50f6-06df-4af0-b464-fe452210918f",
+      "action": "Game Mechanics",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "how to level up quickly"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "To level up quickly, you can complete Tricks and participate in challenges to earn Gryts. Each level requires a specific number of Gryts per week to maintain your Crypt's health. The more Gryts you earn, the faster you can level up.",
+          "snippets": [ {
+            "text": "Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system. Earning Gryts: Each Trick you complete earns you Gryts, with harder or more complex Tricks rewarding more Gryts than easier ones. Weekly Gryt Requirement: Every Crypt, regardless of level, requires a fixed number of Gryts per week to maintain optimal health and well-being. This ensures fairness and allows players who complete more Tricks to accumulate extra Gryts for other purposes. Crypt Vitality: Gryts are essential for your Crypt's health. Failing to meet the weekly requirement weakens your Crypt, limiting its abilities and potentially hindering your progress. Spending Gryts: Excess Gryts can be used for: Crypt Upgrades: Enhance your Crypt's abilities, stats, and performance with various upgrades. Customisation: Personalise your Crypt with unique skins, new AI-generated avatars, clothing, accessories, and other cosmetic options. Marketplace Transactions: Exchange Gryts for discounts on real-world health and wellness products and services in the marketplace.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Gryts%20(GRT)%20are,in%20the%20marketplace."
+          }, {
+            "text": "Quests:Quests are narrative-driven challenges that guide players through personalized health journeys. They align with specific health and wellness categories and offer rewards upon completion. New quests are introduced regularly, ensuring ongoing engagement. Level-Based Progression:The game features five levels: Spark, Morphix, Blaize, Cypher, and Synth. Each level requires a specific number of Gryts per week to maintain your Crypt's health. As you level up, you unlock new abilities, challenges, and storylines. Spark: 20 Gryts per week Morphix: 40 Gryts per week Blaize: 60 Gryts per week Cypher: 80 Gryts per week Synth: 100 Gryts per week Badges:Earn badges by completing challenges, reaching milestones, and participating in social activities. Badges showcase your achievements, unlock upgrades, and contribute to your reputation within the community. A Living Game:",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Quests:Quests%20are%20narrative%2Ddriven,A%20Living%20Game:"
+          }, {
+            "text": "Syndicate Membership: Tricksters can join or create Syndicates, collaborating with other players to achieve common goals and compete for rewards. Progression and Growth Gryts (GRT): Completing Tricks and participating in challenges earns Tricksters GRT, which allows them to level up their Crypts.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Syndicate%20Membership:%20Tricksters,up%20their%20Crypts."
+          }, {
+            "text": "Syndicate Membership: Tricksters can join or create Syndicates, collaborating with other players to achieve common goals and compete for rewards. Progression and Growth Gryts (GRT): Completing Tricks and participating in challenges earns Tricksters GRT, which allows them to level up their Crypts. Levelling Up: Levelling up unlocks new abilities and challenges, and cosmetic upgrades for the Crypt. It also increases the Trickster's reputation and influence in Vitalia. Reputation System: Tricksters build reputation with different factions and entities based on their actions and choices. Higher reputation unlocks new opportunities, rewards, and storylines. Crypts as a Reflection of Health Health Data Integration: The Crypt's attributes and abilities are directly influenced by the Trickster's real-world health data. This creates a direct link between the player's well-being and their progress in the game. Data-Driven Feedback: The game provides personalised feedback based on the Trickster's health data, offering insights and recommendations for improvement.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Syndicate%20Membership:%20Tricksters,recommendations%20for%20improvement."
+          }, {
+            "text": "This dynamic economy rewards players for taking on challenges and engaging with the game's diverse content. By strategically choosing and completing Tricks, you can accumulate Gryts to not only strengthen your Crypt but also express your unique style and enjoy real-world benefits. Faction Influence: Alignment, Beliefs, and Quests Factions in The Crypt Game represent different philosophies and approaches to health, wellness, and the use of technology in Vitalia. While your faction alignment doesn't directly affect the Tricks you receive in your weekly Quest (those are personalised recommendations based on your data), it plays a significant role in other ways: Quests: Each faction curates unique \"Quests\" of Tricks that reflect their specific beliefs and preferences. For example, the Biopunks might offer a Quest focused on extreme biohacking and pushing the limits of the human body, while the Prometheans might have a Quest cantered on holistic wellness and mindful technology use.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=This%20dynamic%20economy,mindful%20technology%20use."
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "how to level up quickly"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "To level up quickly, you can complete Tricks and participate in challenges to earn Gryts. Each level requires a specific number of Gryts per week to maintain your Crypt's health. The more Gryts you earn, the faster you can level up.",
+          "snippets": [ {
+            "text": "Gryts (GRT) are the lifeblood of The Crypt Game, representing both your Crypt's vitality and your in-game points system. Earning Gryts: Each Trick you complete earns you Gryts, with harder or more complex Tricks rewarding more Gryts than easier ones. Weekly Gryt Requirement: Every Crypt, regardless of level, requires a fixed number of Gryts per week to maintain optimal health and well-being. This ensures fairness and allows players who complete more Tricks to accumulate extra Gryts for other purposes. Crypt Vitality: Gryts are essential for your Crypt's health. Failing to meet the weekly requirement weakens your Crypt, limiting its abilities and potentially hindering your progress. Spending Gryts: Excess Gryts can be used for: Crypt Upgrades: Enhance your Crypt's abilities, stats, and performance with various upgrades. Customisation: Personalise your Crypt with unique skins, new AI-generated avatars, clothing, accessories, and other cosmetic options. Marketplace Transactions: Exchange Gryts for discounts on real-world health and wellness products and services in the marketplace.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Gryts%20(GRT)%20are,in%20the%20marketplace."
+          }, {
+            "text": "Quests:Quests are narrative-driven challenges that guide players through personalized health journeys. They align with specific health and wellness categories and offer rewards upon completion. New quests are introduced regularly, ensuring ongoing engagement. Level-Based Progression:The game features five levels: Spark, Morphix, Blaize, Cypher, and Synth. Each level requires a specific number of Gryts per week to maintain your Crypt's health. As you level up, you unlock new abilities, challenges, and storylines. Spark: 20 Gryts per week Morphix: 40 Gryts per week Blaize: 60 Gryts per week Cypher: 80 Gryts per week Synth: 100 Gryts per week Badges:Earn badges by completing challenges, reaching milestones, and participating in social activities. Badges showcase your achievements, unlock upgrades, and contribute to your reputation within the community. A Living Game:",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Quests:Quests%20are%20narrative%2Ddriven,A%20Living%20Game:"
+          }, {
+            "text": "Syndicate Membership: Tricksters can join or create Syndicates, collaborating with other players to achieve common goals and compete for rewards. Progression and Growth Gryts (GRT): Completing Tricks and participating in challenges earns Tricksters GRT, which allows them to level up their Crypts.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Syndicate%20Membership:%20Tricksters,up%20their%20Crypts."
+          }, {
+            "text": "Syndicate Membership: Tricksters can join or create Syndicates, collaborating with other players to achieve common goals and compete for rewards. Progression and Growth Gryts (GRT): Completing Tricks and participating in challenges earns Tricksters GRT, which allows them to level up their Crypts. Levelling Up: Levelling up unlocks new abilities and challenges, and cosmetic upgrades for the Crypt. It also increases the Trickster's reputation and influence in Vitalia. Reputation System: Tricksters build reputation with different factions and entities based on their actions and choices. Higher reputation unlocks new opportunities, rewards, and storylines. Crypts as a Reflection of Health Health Data Integration: The Crypt's attributes and abilities are directly influenced by the Trickster's real-world health data. This creates a direct link between the player's well-being and their progress in the game. Data-Driven Feedback: The game provides personalised feedback based on the Trickster's health data, offering insights and recommendations for improvement.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=Syndicate%20Membership:%20Tricksters,recommendations%20for%20improvement."
+          }, {
+            "text": "This dynamic economy rewards players for taking on challenges and engaging with the game's diverse content. By strategically choosing and completing Tricks, you can accumulate Gryts to not only strengthen your Crypt but also express your unique style and enjoy real-world benefits. Faction Influence: Alignment, Beliefs, and Quests Factions in The Crypt Game represent different philosophies and approaches to health, wellness, and the use of technology in Vitalia. While your faction alignment doesn't directly affect the Tricks you receive in your weekly Quest (those are personalised recommendations based on your data), it plays a significant role in other ways: Quests: Each faction curates unique \"Quests\" of Tricks that reflect their specific beliefs and preferences. For example, the Biopunks might offer a Quest focused on extreme biohacking and pushing the limits of the human body, while the Prometheans might have a Quest cantered on holistic wellness and mindful technology use.",
+            "title": "Game Design Document July 23",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 23.docx#:~:text=This%20dynamic%20economy,mindful%20technology%20use."
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Alright, wanna be a top-tier Trickster? It's not about kale smoothies, it's about racking up Gryts! Pick a faction that matches your vibe, then choose Quests that'll boost your health and your Crypt's cred. It's like a gym membership, but with more data mining and fewer Lycra leggings."
+    }
+  }, {
+    "userUtterance": {
+      "text": "Do you have any professionals that can help with my journey?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/30b7915d-97ba-4ce4-ba03-0a77ab5099f2",
+      "action": "listServices",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": "Health Coach"
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": [ {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Medication dispensed by a pharmacist to treat various medical conditions. Price varies greatly depending on medication.",
+          "Location": "London, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540883909x667702723650256900",
+          "Title": "Prescription Medication",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Comprehensive checkup by a primary care physician to assess overall health and identify potential issues.",
+          "Location": "Cardiff Wales",
+          "Price": 500,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540638942x876133958679789600",
+          "Title": "Annual Physical Exam",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Emergency transportation to a hospital for life-threatening illnesses or injuries. Typically covered by insurance.",
+          "Location": "Edinburgh, Scotland",
+          "Price": 150,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540916413x637366728226242600",
+          "Title": "Ambulance Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "A therapy that is used to preserve, enhance, or restore movement and physical function impaired or threatened by disease, injury, or disability and that utilizes therapeutic exercise, physical modalities (such as massage and electrotherapy), assistive devices, and patient education and training.",
+          "Location": "Belfast, Northern Ireland",
+          "Price": 15,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1718173139499x334423535289630700",
+          "Title": "Physical Therapy - Home Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Skilled nursing care provided in the comfort of your own home for post-surgical recovery, chronic disease management, and daily living assistance.",
+          "Location": "Brighton, England",
+          "Price": 50,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540744656x998266082606186500",
+          "Title": "In-Home Nursing Care",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment program designed to improve mobility, strength, and function following injury, surgery, or chronic conditions.",
+          "Location": "Portree, Isle of Skye, Scotland",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540989363x381627335906426900",
+          "Title": "Physical Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Blood work, urine tests, and other analyses to diagnose medical conditions and monitor health.",
+          "Location": "Manchester, England",
+          "Price": 58,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540951063x772396240541319200",
+          "Title": "Laboratory Testing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Sanitation and Disinfection Services",
+          "Location": "Newcastle upon Tyne, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1719147013016x753356429587120100",
+          "Title": "General Cleaning and Disinfection Services",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment for non-life-threatening illnesses or injuries requiring immediate attention but not an emergency room visit.",
+          "Location": "Durham, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540677278x311424436815265800",
+          "Title": "Urgent Care Visit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Virtual consultation with a doctor for non-emergency medical advice, prescription refills, and basic health concerns.",
+          "Location": "Pembrokeshire Coast National Park, Wales",
+          "Price": 80,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540782979x581981327951134700",
+          "Title": "Online Doctor Consultation",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Creation of a customized diet plan by a registered dietician based on individual needs and health goals.",
+          "Location": "Glasgow, Scotland",
+          "Price": 300,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540833193x289014204398567400",
+          "Title": "Personalized Nutrition Plan",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Individual or group therapy session with a licensed therapist for emotional well-being and mental health concerns.",
+          "Location": "Canterbury, Kent, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540714217x778805514453385200",
+          "Title": "Mental Health Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 134000000,
+            "_seconds": 1720398277
+          },
+          "Description": "A fitness instructor, also known as a personal trainer, provides training and instruction of fitness programs to individuals and groups. The fitness instructor engages clients in exercise routines and weight loss programs, and helps them to reach their individual goals.",
+          "Location": "Cambridge, England",
+          "Price": 150,
+          "Provider": "Felmar Salon",
+          "Service ID": "1720540714217x778805514453385321",
+          "Title": "Fitness instructor",
+          "URL": "https://biocryptricks.com"
+        } ]
+      } ],
+      "inputActionParameters": {
+        "requestBody": "Health Coach"
+      },
+      "outputActionParameters": {
+        "200": [ {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Medication dispensed by a pharmacist to treat various medical conditions. Price varies greatly depending on medication.",
+          "Location": "London, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540883909x667702723650256900",
+          "Title": "Prescription Medication",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Comprehensive checkup by a primary care physician to assess overall health and identify potential issues.",
+          "Location": "Cardiff Wales",
+          "Price": 500,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540638942x876133958679789600",
+          "Title": "Annual Physical Exam",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Emergency transportation to a hospital for life-threatening illnesses or injuries. Typically covered by insurance.",
+          "Location": "Edinburgh, Scotland",
+          "Price": 150,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540916413x637366728226242600",
+          "Title": "Ambulance Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "A therapy that is used to preserve, enhance, or restore movement and physical function impaired or threatened by disease, injury, or disability and that utilizes therapeutic exercise, physical modalities (such as massage and electrotherapy), assistive devices, and patient education and training.",
+          "Location": "Belfast, Northern Ireland",
+          "Price": 15,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1718173139499x334423535289630700",
+          "Title": "Physical Therapy - Home Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Skilled nursing care provided in the comfort of your own home for post-surgical recovery, chronic disease management, and daily living assistance.",
+          "Location": "Brighton, England",
+          "Price": 50,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540744656x998266082606186500",
+          "Title": "In-Home Nursing Care",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment program designed to improve mobility, strength, and function following injury, surgery, or chronic conditions.",
+          "Location": "Portree, Isle of Skye, Scotland",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540989363x381627335906426900",
+          "Title": "Physical Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Blood work, urine tests, and other analyses to diagnose medical conditions and monitor health.",
+          "Location": "Manchester, England",
+          "Price": 58,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540951063x772396240541319200",
+          "Title": "Laboratory Testing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Sanitation and Disinfection Services",
+          "Location": "Newcastle upon Tyne, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1719147013016x753356429587120100",
+          "Title": "General Cleaning and Disinfection Services",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment for non-life-threatening illnesses or injuries requiring immediate attention but not an emergency room visit.",
+          "Location": "Durham, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540677278x311424436815265800",
+          "Title": "Urgent Care Visit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Virtual consultation with a doctor for non-emergency medical advice, prescription refills, and basic health concerns.",
+          "Location": "Pembrokeshire Coast National Park, Wales",
+          "Price": 80,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540782979x581981327951134700",
+          "Title": "Online Doctor Consultation",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Creation of a customized diet plan by a registered dietician based on individual needs and health goals.",
+          "Location": "Glasgow, Scotland",
+          "Price": 300,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540833193x289014204398567400",
+          "Title": "Personalized Nutrition Plan",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Individual or group therapy session with a licensed therapist for emotional well-being and mental health concerns.",
+          "Location": "Canterbury, Kent, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540714217x778805514453385200",
+          "Title": "Mental Health Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 134000000,
+            "_seconds": 1720398277
+          },
+          "Description": "A fitness instructor, also known as a personal trainer, provides training and instruction of fitness programs to individuals and groups. The fitness instructor engages clients in exercise routines and weight loss programs, and helps them to reach their individual goals.",
+          "Location": "Cambridge, England",
+          "Price": 150,
+          "Provider": "Felmar Salon",
+          "Service ID": "1720540714217x778805514453385321",
+          "Title": "Fitness instructor",
+          "URL": "https://biocryptricks.com"
+        } ]
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Alright, need a helping hand with your health journey? Crypticians are the experts who can help you create a personalized treatment plan that fits your individual needs. Who do you want to work with?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I want to get started, what gear do I need to set me up for success?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/f681bde5-561a-4939-872a-2bd908391d51",
+      "action": "listProducts",
+      "outputParameters": [ {
+        "name": "200",
+        "value": [ {
+          "Category": "Health",
+          "Description": "Kit containing essential medical supplies for minor injuries and emergencies.",
+          "Price": 10,
+          "Product ID": "1715935385743x123771248671981570",
+          "Product Name": "First Aid Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Overnight sleep study to diagnose sleep disorders such as sleep apnea",
+          "Price": 20,
+          "Product ID": "1715953062393x337869595276476400",
+          "Product Name": "Sleep Study",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Spinal manipulation and adjustment by a chiropractor to treat musculoskeletal issues.",
+          "Price": 42,
+          "Product ID": "1715952914759x143259619484499970",
+          "Product Name": "Chiropractic Adjustment",
+          "URL": "https://biocryptricks.com/version-test"
+        }, {
+          "Category": "Health",
+          "Description": "Full-body skin examination by a dermatologist to check for signs of skin cancer",
+          "Price": 30,
+          "Product ID": "1717512599386x268253503114969100",
+          "Product Name": "Skincare cancer screening",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for measuring body temperature.",
+          "Price": 5,
+          "Product ID": "1715935431961x583090904467505200",
+          "Product Name": "Thermometer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Various types of dressings for wound care, including adhesive bandages, gauze, and specialized wound dressings.",
+          "Price": 10,
+          "Product ID": "1715948803261x261748464819896320",
+          "Product Name": "Wound Dressing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Inserts for shoes to provide support and alleviate foot pain.",
+          "Price": 10,
+          "Product ID": "1715949340004x537731365838520300",
+          "Product Name": "Orthopedic Shoe Inserts",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Alcohol-based hand sanitizer for disinfection and hygiene.",
+          "Price": 2,
+          "Product ID": "1715948952531x424345463802036200",
+          "Product Name": "Hand Sanitizer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Devices for delivering medication directly into the lungs for respiratory conditions like asthma or COPD.",
+          "Price": 10,
+          "Product ID": "1715948626069x544451387237859300",
+          "Product Name": "Inhalers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for monitoring blood glucose levels for diabetic patients.",
+          "Price": 40,
+          "Product ID": "1715948461121x528375391408619500",
+          "Product Name": "Digital Blood Glucose Monitor",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Containers for organizing and managing daily medications.",
+          "Price": 5,
+          "Product ID": "1715949143607x880164419073474600",
+          "Product Name": "Pill Organizers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Personal emergency response system for individuals with medical conditions or seniors.",
+          "Price": 20,
+          "Product ID": "1715949412665x842969502574444500",
+          "Product Name": "Medical Alert System",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Kit containing tools or drops for removing excess ear wax at home.",
+          "Price": 5,
+          "Product ID": "1715948870245x517835155299106800",
+          "Product Name": "Ear Wax Removal Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Supportive braces for joints and muscles to aid in injury recovery or provide stabilization.",
+          "Price": 20,
+          "Product ID": "1715650476007x471870706818744300",
+          "Product Name": "Orthopedic Braces",
+          "URL": "https://biocryptricks.com"
+        } ]
+      } ],
+      "outputActionParameters": {
+        "200": [ {
+          "Category": "Health",
+          "Description": "Kit containing essential medical supplies for minor injuries and emergencies.",
+          "Price": 10,
+          "Product ID": "1715935385743x123771248671981570",
+          "Product Name": "First Aid Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Overnight sleep study to diagnose sleep disorders such as sleep apnea",
+          "Price": 20,
+          "Product ID": "1715953062393x337869595276476400",
+          "Product Name": "Sleep Study",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Spinal manipulation and adjustment by a chiropractor to treat musculoskeletal issues.",
+          "Price": 42,
+          "Product ID": "1715952914759x143259619484499970",
+          "Product Name": "Chiropractic Adjustment",
+          "URL": "https://biocryptricks.com/version-test"
+        }, {
+          "Category": "Health",
+          "Description": "Full-body skin examination by a dermatologist to check for signs of skin cancer",
+          "Price": 30,
+          "Product ID": "1717512599386x268253503114969100",
+          "Product Name": "Skincare cancer screening",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for measuring body temperature.",
+          "Price": 5,
+          "Product ID": "1715935431961x583090904467505200",
+          "Product Name": "Thermometer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Various types of dressings for wound care, including adhesive bandages, gauze, and specialized wound dressings.",
+          "Price": 10,
+          "Product ID": "1715948803261x261748464819896320",
+          "Product Name": "Wound Dressing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Inserts for shoes to provide support and alleviate foot pain.",
+          "Price": 10,
+          "Product ID": "1715949340004x537731365838520300",
+          "Product Name": "Orthopedic Shoe Inserts",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Alcohol-based hand sanitizer for disinfection and hygiene.",
+          "Price": 2,
+          "Product ID": "1715948952531x424345463802036200",
+          "Product Name": "Hand Sanitizer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Devices for delivering medication directly into the lungs for respiratory conditions like asthma or COPD.",
+          "Price": 10,
+          "Product ID": "1715948626069x544451387237859300",
+          "Product Name": "Inhalers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for monitoring blood glucose levels for diabetic patients.",
+          "Price": 40,
+          "Product ID": "1715948461121x528375391408619500",
+          "Product Name": "Digital Blood Glucose Monitor",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Containers for organizing and managing daily medications.",
+          "Price": 5,
+          "Product ID": "1715949143607x880164419073474600",
+          "Product Name": "Pill Organizers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Personal emergency response system for individuals with medical conditions or seniors.",
+          "Price": 20,
+          "Product ID": "1715949412665x842969502574444500",
+          "Product Name": "Medical Alert System",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Kit containing tools or drops for removing excess ear wax at home.",
+          "Price": 5,
+          "Product ID": "1715948870245x517835155299106800",
+          "Product Name": "Ear Wax Removal Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Supportive braces for joints and muscles to aid in injury recovery or provide stabilization.",
+          "Price": 20,
+          "Product ID": "1715650476007x471870706818744300",
+          "Product Name": "Orthopedic Braces",
+          "URL": "https://biocryptricks.com"
+        } ]
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Alright, ready to start getting healthy? Let's go shopping! Gear Vendors are your one-stop shop for all the gadgets and gizmos you'll need to not die.\n\nAre there any specific items you're looking for?"
+    }
+  } ],
+  "displayName": "Sample 1",
+  "retrievalStrategy": "STATIC",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

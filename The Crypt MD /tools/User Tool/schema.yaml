@@ -1,0 +1,38 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: User Profile Store
+  description: Stores user profile information by profile_id
+servers:
+  - url: https://user-rnu2tdyg2a-uc.a.run.app
+paths:
+  /get_user_profile:
+    post:
+      operationId: get_user_profile
+      description: Use the mocked profiles file to retrieve a user profile.
+      summary: Use the mocked profiles file to retrieve a user profile.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QueryRequest'
+      responses:
+        '200':
+          description: Returns the results based on the user input profile_id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QueryResponse'
+
+components:
+  schemas:
+    QueryRequest:
+      type: object
+      properties:
+        profile_id:
+          type: string
+    QueryResponse:
+      type: object
+      properties:
+        result:
+          type: object

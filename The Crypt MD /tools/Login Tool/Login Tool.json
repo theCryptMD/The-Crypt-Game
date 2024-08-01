@@ -1,0 +1,9 @@
+{
+  "name": "2f311d1a-c57c-43c6-a02e-cbc83a39fcef",
+  "displayName": "Login Tool",
+  "description": "API for user login and client listing using Firebase",
+  "openApiSpec": {
+  
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

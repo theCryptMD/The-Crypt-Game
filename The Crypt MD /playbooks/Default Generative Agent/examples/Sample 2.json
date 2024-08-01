@@ -1,0 +1,1573 @@
+{
+  "name": "babf0732-664d-46c7-ae4f-3213af65615c",
+  "actions": [ {
+    "userUtterance": {
+      "text": "How am I doing in the game?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/69f0fef7-e066-46fd-a240-428209dd2691",
+      "action": "get_user_profile",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "profile_id": "FEL"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "Address": "Kalantas Rd., Zambowood, Zamboanga City",
+          "Age": 44,
+          "Allergies": "No known allergies",
+          "Birth Date": "Mon, 31 Dec 1979 16:00:00 GMT",
+          "Category": "Body",
+          "Chronic Illnes": "None",
+          "Civil Status": "Married",
+          "Contact Number": "09360479316",
+          "Diet": "Balanced Diet",
+          "Email": "salon.felimar@gmail.com",
+          "Exercise": "Regularly goes to the gym",
+          "Faction": "Biopunk",
+          "First Name": "Filimon",
+          "Gender": "Male",
+          "Height": "170cm",
+          "Immunizations": "Up-to-date",
+          "Last Name": "Dalisay",
+          "Level": "Morphix",
+          "Lifestyle": "Non-smoker, Occasional Drinker",
+          "Medical History": {
+            "History 1": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Sat, 01 Jan 2005 02:00:00 GMT",
+              "Findings": "Appendectomy",
+              "Physician": "Dr. Smith",
+              "Recommendation": "Surgery"
+            },
+            "History 2": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Tue, 01 Jan 1985 12:00:00 GMT",
+              "Findings": "Tonsillectomy",
+              "Physician": "Dr. Jone",
+              "Recommendation": "Surgery"
+            },
+            "History 3": {
+              "Action Taken": "Using Albuterol inhaler as prescribed",
+              "Date": "Thu, 31 Dec 2009 23:30:00 GMT",
+              "Findings": "Asthma",
+              "Physician": "Dr. Lee",
+              "Recommendation": "Continue using Albuterol inhaler as needed"
+            }
+          },
+          "Metric": "Heart Rate",
+          "Metric Purpose": "To measure the number of times the heart beats per minute, providing insights into cardiovascular health, fitness levels, and stress response",
+          "Metric Unit of Measure": " Beats per minute (bpm",
+          "Occupation": "Software Engineer",
+          "Religion": "Roman Catholic",
+          "Result": [ {
+            "bpm": 80,
+            "date": "Sun, 07 Jul 2024 23:26:45 GMT"
+          }, {
+            "bpm": 86,
+            "date": "Tue, 09 Jul 2024 00:28:49 GMT"
+          }, {
+            "bpm": 80,
+            "date": "Wed, 10 Jul 2024 01:30:29 GMT"
+          } ],
+          "Subcategory ": "Health Monitoring",
+          "Weight": "75kg ",
+          "client ID": "CLIENT-001",
+          "userId": "RUMdbCWna5b9TjcDum9PBTbEfDl2"
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "profile_id": "FEL"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "Address": "Kalantas Rd., Zambowood, Zamboanga City",
+          "Age": 44,
+          "Allergies": "No known allergies",
+          "Birth Date": "Mon, 31 Dec 1979 16:00:00 GMT",
+          "Category": "Body",
+          "Chronic Illnes": "None",
+          "Civil Status": "Married",
+          "Contact Number": "09360479316",
+          "Diet": "Balanced Diet",
+          "Email": "salon.felimar@gmail.com",
+          "Exercise": "Regularly goes to the gym",
+          "Faction": "Biopunk",
+          "First Name": "Filimon",
+          "Gender": "Male",
+          "Height": "170cm",
+          "Immunizations": "Up-to-date",
+          "Last Name": "Dalisay",
+          "Level": "Morphix",
+          "Lifestyle": "Non-smoker, Occasional Drinker",
+          "Medical History": {
+            "History 1": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Sat, 01 Jan 2005 02:00:00 GMT",
+              "Findings": "Appendectomy",
+              "Physician": "Dr. Smith",
+              "Recommendation": "Surgery"
+            },
+            "History 2": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Tue, 01 Jan 1985 12:00:00 GMT",
+              "Findings": "Tonsillectomy",
+              "Physician": "Dr. Jone",
+              "Recommendation": "Surgery"
+            },
+            "History 3": {
+              "Action Taken": "Using Albuterol inhaler as prescribed",
+              "Date": "Thu, 31 Dec 2009 23:30:00 GMT",
+              "Findings": "Asthma",
+              "Physician": "Dr. Lee",
+              "Recommendation": "Continue using Albuterol inhaler as needed"
+            }
+          },
+          "Metric": "Heart Rate",
+          "Metric Purpose": "To measure the number of times the heart beats per minute, providing insights into cardiovascular health, fitness levels, and stress response",
+          "Metric Unit of Measure": " Beats per minute (bpm",
+          "Occupation": "Software Engineer",
+          "Religion": "Roman Catholic",
+          "Result": [ {
+            "bpm": 80,
+            "date": "Sun, 07 Jul 2024 23:26:45 GMT"
+          }, {
+            "bpm": 86,
+            "date": "Tue, 09 Jul 2024 00:28:49 GMT"
+          }, {
+            "bpm": 80,
+            "date": "Wed, 10 Jul 2024 01:30:29 GMT"
+          } ],
+          "Subcategory ": "Health Monitoring",
+          "Weight": "75kg ",
+          "client ID": "CLIENT-001",
+          "userId": "RUMdbCWna5b9TjcDum9PBTbEfDl2"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I’ve got your info right here, mate. Looks like you’ve got a long way to go before you can call yourself a pro. Let me see… you’re currently a Morphix Biopunk,  meaning you're embracing your inner cyborg, right?\nTo get you where you need to be in the game, you need to up your heart rate a bit. I recommend trying those high-intensity intervals. It'll definitely kick your Crypt's performance into gear. You might also want to join a Syndicate so you can compare your heart rate to other Biopunks."
+    }
+  }, {
+    "userUtterance": {
+      "text": "How do I level up in the game?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/434a50f6-06df-4af0-b464-fe452210918f",
+      "action": "Game Mechanics",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "How to level up in the game"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "To level up in the game, you need to complete quests and earn Gryts. Each level requires a specific number of Gryts per week to maintain your Crypt's health. As you level up, you unlock new abilities, challenges, and storylines.",
+          "snippets": [ {
+            "text": "Quests:Quests are narrative-driven challenges that guide players through personalized health journeys. They align with specific health and wellness categories and offer rewards upon completion. New quests are introduced regularly, ensuring ongoing engagement. Level-Based Progression:The game features five levels: Spark, Morphix, Blaize, Cypher, and Synth. Each level requires a specific number of Gryts per week to maintain your Crypt's health. As you level up, you unlock new abilities, challenges, and storylines. Spark: 20 Gryts per week Morphix: 40 Gryts per week Blaize: 60 Gryts per week Cypher: 80 Gryts per week Synth: 100 Gryts per week Badges:Earn badges by completing challenges, reaching milestones, and participating in social activities. Badges showcase your achievements, unlock upgrades, and contribute to your reputation within the community. A Living Game:",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Quests:Quests%20are%20narrative%2Ddriven,A%20Living%20Game:"
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction.",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,your%20favourite%20faction."
+          }, {
+            "text": "Levelling Up: Levelling up unlocks new abilities and challenges, and cosmetic upgrades for the Crypt. It also increases the Trickster's reputation and influence in Vitalia. Reputation System: Tricksters build reputation with different factions and entities based on their actions and choices. Higher reputation unlocks new opportunities, rewards, and storylines. Crypts as a Reflection of Health Health Data Integration: The Crypt's attributes and abilities are directly influenced by the Trickster's real-world health data. This creates a direct link between the player's well-being and their progress in the game. Data-Driven Feedback: The game provides personalised feedback based on the Trickster's health data, offering insights and recommendations for improvement. Motivation for Self-Improvement: The Crypt serves as a visual representation of the Trickster's health journey, motivating them to make positive lifestyle changes. Crypticians: The Professionals",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Levelling%20Up:%20Levelling,Crypticians:%20The%20Professionals"
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction. Trick Categories and Subcategories Each Trick you encounter falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds,Wealth, and Growth. These categories represent different aspects of your well-being and personal development. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness. Gryts Economy: The Life Force of Your Crypt",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,of%20Your%20Crypt"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "How to level up in the game"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "To level up in the game, you need to complete quests and earn Gryts. Each level requires a specific number of Gryts per week to maintain your Crypt's health. As you level up, you unlock new abilities, challenges, and storylines.",
+          "snippets": [ {
+            "text": "Quests:Quests are narrative-driven challenges that guide players through personalized health journeys. They align with specific health and wellness categories and offer rewards upon completion. New quests are introduced regularly, ensuring ongoing engagement. Level-Based Progression:The game features five levels: Spark, Morphix, Blaize, Cypher, and Synth. Each level requires a specific number of Gryts per week to maintain your Crypt's health. As you level up, you unlock new abilities, challenges, and storylines. Spark: 20 Gryts per week Morphix: 40 Gryts per week Blaize: 60 Gryts per week Cypher: 80 Gryts per week Synth: 100 Gryts per week Badges:Earn badges by completing challenges, reaching milestones, and participating in social activities. Badges showcase your achievements, unlock upgrades, and contribute to your reputation within the community. A Living Game:",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Quests:Quests%20are%20narrative%2Ddriven,A%20Living%20Game:"
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction.",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,your%20favourite%20faction."
+          }, {
+            "text": "Levelling Up: Levelling up unlocks new abilities and challenges, and cosmetic upgrades for the Crypt. It also increases the Trickster's reputation and influence in Vitalia. Reputation System: Tricksters build reputation with different factions and entities based on their actions and choices. Higher reputation unlocks new opportunities, rewards, and storylines. Crypts as a Reflection of Health Health Data Integration: The Crypt's attributes and abilities are directly influenced by the Trickster's real-world health data. This creates a direct link between the player's well-being and their progress in the game. Data-Driven Feedback: The game provides personalised feedback based on the Trickster's health data, offering insights and recommendations for improvement. Motivation for Self-Improvement: The Crypt serves as a visual representation of the Trickster's health journey, motivating them to make positive lifestyle changes. Crypticians: The Professionals",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Levelling%20Up:%20Levelling,Crypticians:%20The%20Professionals"
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction. Trick Categories and Subcategories Each Trick you encounter falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds,Wealth, and Growth. These categories represent different aspects of your well-being and personal development. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness. Gryts Economy: The Life Force of Your Crypt",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,of%20Your%20Crypt"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Well, that's a good question.  Leveling up is a big part of The Crypt Game, just like it's a big part of life. You need to keep earning Gryts, which you do by completing quests. Think of it like real life: the more you push yourself to improve, the better you'll do! So what's the biggest obstacle between you and a shiny new level? Are you having trouble figuring out the right Quests, or is it more of a commitment problem?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "What are tricks?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/434a50f6-06df-4af0-b464-fe452210918f",
+      "action": "Game Mechanics",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "what are Tricks"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Tricks are the challenges you complete in the game to earn Gryts, the in-game points system. Each Trick falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds, Wealth, and Growth. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness.",
+          "snippets": [ {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction. Trick Categories and Subcategories Each Trick you encounter falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds,Wealth, and Growth. These categories represent different aspects of your well-being and personal development. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness. Gryts Economy: The Life Force of Your Crypt",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,of%20Your%20Crypt"
+          }, {
+            "text": "This dynamic economy rewards players for taking on challenges and engaging with the game's diverse content. By strategically choosing and completing Tricks, you can accumulate Gryts to not only strengthen your Crypt but also express your unique style and enjoy real-world benefits. Faction Influence: Alignment, Beliefs, and Quests Factions in The Crypt Game represent different philosophies and approaches to health, wellness, and the use of technology in Vitalia. While your faction alignment doesn't directly affect the Tricks you receive in your weekly Quest (those are personalised recommendations based on your data), it plays a significant role in other ways: Quests: Each faction curates unique \"Quests\" of Tricks that reflect their specific beliefs and preferences. For example, the Biopunks might offer a Quest focused on extreme biohacking and pushing the limits of the human body, while the Prometheans might have a Quest cantered on holistic wellness and mindful technology use.",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=This%20dynamic%20economy,mindful%20technology%20use."
+          }, {
+            "text": "Make informed decisions to achieve your financial objectives. Sample actionable steps for Financial Literacy Read books and articles about personal finance: There are many resources available to help you learn about personal finance basics.",
+            "title": "Health and Wellness Categories",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Health and Wellness Categories.docx#:~:text=Make%20informed%20decisions,personal%20finance%20basics."
+          }, {
+            "text": "Savings: Establish a consistent savings habit to build an emergency fund, save for specific goals, and secure your financial future. Sample actionable steps for Savings Set savings goals: Determine how much you want to save each month and what you're saving for. Automate your savings: Set up automatic transfers from your checking account to your savings account each month. Create a budget: Track your income and expenses to identify areas where you can save money. Cut back on unnecessary expenses: Look for ways to reduce spending, such as cooking at home more often or finding free activities to enjoy. Increase your income: Look for ways to earn more money, such as taking on a side hustle or selling unwanted items. Make saving a priority: Treat saving like any other bill that needs to be paid. Celebrate your savings successes: Acknowledge your progress and reward yourself for reaching your savings goals. Category: Play Description: Embrace joy, relaxation, and creative expression to enrich your life and foster a sense of well-being. Subcategories:",
+            "title": "Health and Wellness Categories",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Health and Wellness Categories.docx#:~:text=Savings:%20Establish%20a,of%20well%2Dbeing.%20Subcategories:"
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction.",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,your%20favourite%20faction."
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "what are Tricks"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Tricks are the challenges you complete in the game to earn Gryts, the in-game points system. Each Trick falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds, Wealth, and Growth. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness.",
+          "snippets": [ {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction. Trick Categories and Subcategories Each Trick you encounter falls into one of nine core categories: Body, Mind, Work, Play, Habitat, Meaning, Bonds,Wealth, and Growth. These categories represent different aspects of your well-being and personal development. Within each category, you'll find a wide variety of subcategories, allowing you to tailor your challenges to your specific interests and goals. For example, within the \"Body\" category, you might find subcategories like Fitness, Nutrition, Sleep, or Preventive Care. As you complete Tricks in different categories and subcategories, you'll earn Gryts and unlock new challenges, while gaining valuable insights into your overall health and wellness. Gryts Economy: The Life Force of Your Crypt",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,of%20Your%20Crypt"
+          }, {
+            "text": "This dynamic economy rewards players for taking on challenges and engaging with the game's diverse content. By strategically choosing and completing Tricks, you can accumulate Gryts to not only strengthen your Crypt but also express your unique style and enjoy real-world benefits. Faction Influence: Alignment, Beliefs, and Quests Factions in The Crypt Game represent different philosophies and approaches to health, wellness, and the use of technology in Vitalia. While your faction alignment doesn't directly affect the Tricks you receive in your weekly Quest (those are personalised recommendations based on your data), it plays a significant role in other ways: Quests: Each faction curates unique \"Quests\" of Tricks that reflect their specific beliefs and preferences. For example, the Biopunks might offer a Quest focused on extreme biohacking and pushing the limits of the human body, while the Prometheans might have a Quest cantered on holistic wellness and mindful technology use.",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=This%20dynamic%20economy,mindful%20technology%20use."
+          }, {
+            "text": "Make informed decisions to achieve your financial objectives. Sample actionable steps for Financial Literacy Read books and articles about personal finance: There are many resources available to help you learn about personal finance basics.",
+            "title": "Health and Wellness Categories",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Health and Wellness Categories.docx#:~:text=Make%20informed%20decisions,personal%20finance%20basics."
+          }, {
+            "text": "Savings: Establish a consistent savings habit to build an emergency fund, save for specific goals, and secure your financial future. Sample actionable steps for Savings Set savings goals: Determine how much you want to save each month and what you're saving for. Automate your savings: Set up automatic transfers from your checking account to your savings account each month. Create a budget: Track your income and expenses to identify areas where you can save money. Cut back on unnecessary expenses: Look for ways to reduce spending, such as cooking at home more often or finding free activities to enjoy. Increase your income: Look for ways to earn more money, such as taking on a side hustle or selling unwanted items. Make saving a priority: Treat saving like any other bill that needs to be paid. Celebrate your savings successes: Acknowledge your progress and reward yourself for reaching your savings goals. Category: Play Description: Embrace joy, relaxation, and creative expression to enrich your life and foster a sense of well-being. Subcategories:",
+            "title": "Health and Wellness Categories",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Health and Wellness Categories.docx#:~:text=Savings:%20Establish%20a,of%20well%2Dbeing.%20Subcategories:"
+          }, {
+            "text": "Complete Tricks: Use your skills and resources to complete the Tricks you've chosen. Earn Gryts: Successfully completing Tricks earns you Gryts, the in-game points system. Spend Gryts: Upgrade your Crypts (your in-game profile), buy items or services, or support your favourite faction.",
+            "title": "Game Design Document July 28",
+            "uri": "https://storage.cloud.google.com/biocryptricks/Game Mechanics/Game Design Document July 28.docx#:~:text=Complete%20Tricks:%20Use,your%20favourite%20faction."
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Tricks are like mini-quests, dude. They're the challenges you gotta beat to earn those juicy Gryts. They're categorized by real-world aspects like Body, Mind, Work, and so on, so it's like a mini-game version of your actual life. So, what are you struggling with? Are the Tricks too easy for a genius like you, or do you need to ditch the couch and try something a little more challenging?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I need a fitness instructor"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/30b7915d-97ba-4ce4-ba03-0a77ab5099f2",
+      "action": "listServices",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": "Fitness Instructor"
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": [ {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Medication dispensed by a pharmacist to treat various medical conditions. Price varies greatly depending on medication.",
+          "Location": "London, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540883909x667702723650256900",
+          "Title": "Prescription Medication",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Comprehensive checkup by a primary care physician to assess overall health and identify potential issues.",
+          "Location": "Cardiff Wales",
+          "Price": 500,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540638942x876133958679789600",
+          "Title": "Annual Physical Exam",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Emergency transportation to a hospital for life-threatening illnesses or injuries. Typically covered by insurance.",
+          "Location": "Edinburgh, Scotland",
+          "Price": 150,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540916413x637366728226242600",
+          "Title": "Ambulance Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "A therapy that is used to preserve, enhance, or restore movement and physical function impaired or threatened by disease, injury, or disability and that utilizes therapeutic exercise, physical modalities (such as massage and electrotherapy), assistive devices, and patient education and training.",
+          "Location": "Belfast, Northern Ireland",
+          "Price": 15,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1718173139499x334423535289630700",
+          "Title": "Physical Therapy - Home Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Skilled nursing care provided in the comfort of your own home for post-surgical recovery, chronic disease management, and daily living assistance.",
+          "Location": "Brighton, England",
+          "Price": 50,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540744656x998266082606186500",
+          "Title": "In-Home Nursing Care",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment program designed to improve mobility, strength, and function following injury, surgery, or chronic conditions.",
+          "Location": "Portree, Isle of Skye, Scotland",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540989363x381627335906426900",
+          "Title": "Physical Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Blood work, urine tests, and other analyses to diagnose medical conditions and monitor health.",
+          "Location": "Manchester, England",
+          "Price": 58,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540951063x772396240541319200",
+          "Title": "Laboratory Testing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Sanitation and Disinfection Services",
+          "Location": "Newcastle upon Tyne, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1719147013016x753356429587120100",
+          "Title": "General Cleaning and Disinfection Services",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment for non-life-threatening illnesses or injuries requiring immediate attention but not an emergency room visit.",
+          "Location": "Durham, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540677278x311424436815265800",
+          "Title": "Urgent Care Visit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Virtual consultation with a doctor for non-emergency medical advice, prescription refills, and basic health concerns.",
+          "Location": "Pembrokeshire Coast National Park, Wales",
+          "Price": 80,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540782979x581981327951134700",
+          "Title": "Online Doctor Consultation",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Creation of a customized diet plan by a registered dietician based on individual needs and health goals.",
+          "Location": "Glasgow, Scotland",
+          "Price": 300,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540833193x289014204398567400",
+          "Title": "Personalized Nutrition Plan",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Individual or group therapy session with a licensed therapist for emotional well-being and mental health concerns.",
+          "Location": "Canterbury, Kent, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540714217x778805514453385200",
+          "Title": "Mental Health Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 134000000,
+            "_seconds": 1720398277
+          },
+          "Description": "A fitness instructor, also known as a personal trainer, provides training and instruction of fitness programs to individuals and groups. The fitness instructor engages clients in exercise routines and weight loss programs, and helps them to reach their individual goals.",
+          "Location": "Cambridge, England",
+          "Price": 150,
+          "Provider": "Felmar Salon",
+          "Service ID": "1720540714217x778805514453385321",
+          "Title": "Fitness instructor",
+          "URL": "https://biocryptricks.com"
+        } ]
+      } ],
+      "inputActionParameters": {
+        "requestBody": "Fitness Instructor"
+      },
+      "outputActionParameters": {
+        "200": [ {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Medication dispensed by a pharmacist to treat various medical conditions. Price varies greatly depending on medication.",
+          "Location": "London, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540883909x667702723650256900",
+          "Title": "Prescription Medication",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Comprehensive checkup by a primary care physician to assess overall health and identify potential issues.",
+          "Location": "Cardiff Wales",
+          "Price": 500,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540638942x876133958679789600",
+          "Title": "Annual Physical Exam",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Emergency transportation to a hospital for life-threatening illnesses or injuries. Typically covered by insurance.",
+          "Location": "Edinburgh, Scotland",
+          "Price": 150,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540916413x637366728226242600",
+          "Title": "Ambulance Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "A therapy that is used to preserve, enhance, or restore movement and physical function impaired or threatened by disease, injury, or disability and that utilizes therapeutic exercise, physical modalities (such as massage and electrotherapy), assistive devices, and patient education and training.",
+          "Location": "Belfast, Northern Ireland",
+          "Price": 15,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1718173139499x334423535289630700",
+          "Title": "Physical Therapy - Home Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Skilled nursing care provided in the comfort of your own home for post-surgical recovery, chronic disease management, and daily living assistance.",
+          "Location": "Brighton, England",
+          "Price": 50,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540744656x998266082606186500",
+          "Title": "In-Home Nursing Care",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment program designed to improve mobility, strength, and function following injury, surgery, or chronic conditions.",
+          "Location": "Portree, Isle of Skye, Scotland",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540989363x381627335906426900",
+          "Title": "Physical Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Blood work, urine tests, and other analyses to diagnose medical conditions and monitor health.",
+          "Location": "Manchester, England",
+          "Price": 58,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540951063x772396240541319200",
+          "Title": "Laboratory Testing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Sanitation and Disinfection Services",
+          "Location": "Newcastle upon Tyne, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1719147013016x753356429587120100",
+          "Title": "General Cleaning and Disinfection Services",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment for non-life-threatening illnesses or injuries requiring immediate attention but not an emergency room visit.",
+          "Location": "Durham, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540677278x311424436815265800",
+          "Title": "Urgent Care Visit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Virtual consultation with a doctor for non-emergency medical advice, prescription refills, and basic health concerns.",
+          "Location": "Pembrokeshire Coast National Park, Wales",
+          "Price": 80,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540782979x581981327951134700",
+          "Title": "Online Doctor Consultation",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Creation of a customized diet plan by a registered dietician based on individual needs and health goals.",
+          "Location": "Glasgow, Scotland",
+          "Price": 300,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540833193x289014204398567400",
+          "Title": "Personalized Nutrition Plan",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Individual or group therapy session with a licensed therapist for emotional well-being and mental health concerns.",
+          "Location": "Canterbury, Kent, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540714217x778805514453385200",
+          "Title": "Mental Health Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 134000000,
+            "_seconds": 1720398277
+          },
+          "Description": "A fitness instructor, also known as a personal trainer, provides training and instruction of fitness programs to individuals and groups. The fitness instructor engages clients in exercise routines and weight loss programs, and helps them to reach their individual goals.",
+          "Location": "Cambridge, England",
+          "Price": 150,
+          "Provider": "Felmar Salon",
+          "Service ID": "1720540714217x778805514453385321",
+          "Title": "Fitness instructor",
+          "URL": "https://biocryptricks.com"
+        } ]
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "A fitness instructor? Well, you're certainly taking the first step toward becoming a gym bunny, aren't you? There's a wide range of Crypticians who specialize in pushing your body to the limit. So what kind of training are you after? Hardcore bootcamp style, or something a little more…gentle, let's say? Let me know, and I'll help you get hooked up with a Cryptician in your area."
+    }
+  }, {
+    "userUtterance": {
+      "text": "How much is the price for the instructor?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/30b7915d-97ba-4ce4-ba03-0a77ab5099f2",
+      "action": "listServices",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": "Fitness Instructor"
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": [ {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Medication dispensed by a pharmacist to treat various medical conditions. Price varies greatly depending on medication.",
+          "Location": "London, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540883909x667702723650256900",
+          "Title": "Prescription Medication",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Comprehensive checkup by a primary care physician to assess overall health and identify potential issues.",
+          "Location": "Cardiff Wales",
+          "Price": 500,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540638942x876133958679789600",
+          "Title": "Annual Physical Exam",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Emergency transportation to a hospital for life-threatening illnesses or injuries. Typically covered by insurance.",
+          "Location": "Edinburgh, Scotland",
+          "Price": 150,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540916413x637366728226242600",
+          "Title": "Ambulance Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "A therapy that is used to preserve, enhance, or restore movement and physical function impaired or threatened by disease, injury, or disability and that utilizes therapeutic exercise, physical modalities (such as massage and electrotherapy), assistive devices, and patient education and training.",
+          "Location": "Belfast, Northern Ireland",
+          "Price": 15,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1718173139499x334423535289630700",
+          "Title": "Physical Therapy - Home Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Skilled nursing care provided in the comfort of your own home for post-surgical recovery, chronic disease management, and daily living assistance.",
+          "Location": "Brighton, England",
+          "Price": 50,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540744656x998266082606186500",
+          "Title": "In-Home Nursing Care",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment program designed to improve mobility, strength, and function following injury, surgery, or chronic conditions.",
+          "Location": "Portree, Isle of Skye, Scotland",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540989363x381627335906426900",
+          "Title": "Physical Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Blood work, urine tests, and other analyses to diagnose medical conditions and monitor health.",
+          "Location": "Manchester, England",
+          "Price": 58,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540951063x772396240541319200",
+          "Title": "Laboratory Testing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Sanitation and Disinfection Services",
+          "Location": "Newcastle upon Tyne, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1719147013016x753356429587120100",
+          "Title": "General Cleaning and Disinfection Services",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment for non-life-threatening illnesses or injuries requiring immediate attention but not an emergency room visit.",
+          "Location": "Durham, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540677278x311424436815265800",
+          "Title": "Urgent Care Visit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Virtual consultation with a doctor for non-emergency medical advice, prescription refills, and basic health concerns.",
+          "Location": "Pembrokeshire Coast National Park, Wales",
+          "Price": 80,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540782979x581981327951134700",
+          "Title": "Online Doctor Consultation",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Creation of a customized diet plan by a registered dietician based on individual needs and health goals.",
+          "Location": "Glasgow, Scotland",
+          "Price": 300,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540833193x289014204398567400",
+          "Title": "Personalized Nutrition Plan",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Individual or group therapy session with a licensed therapist for emotional well-being and mental health concerns.",
+          "Location": "Canterbury, Kent, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540714217x778805514453385200",
+          "Title": "Mental Health Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 134000000,
+            "_seconds": 1720398277
+          },
+          "Description": "A fitness instructor, also known as a personal trainer, provides training and instruction of fitness programs to individuals and groups. The fitness instructor engages clients in exercise routines and weight loss programs, and helps them to reach their individual goals.",
+          "Location": "Cambridge, England",
+          "Price": 150,
+          "Provider": "Felmar Salon",
+          "Service ID": "1720540714217x778805514453385321",
+          "Title": "Fitness instructor",
+          "URL": "https://biocryptricks.com"
+        } ]
+      } ],
+      "inputActionParameters": {
+        "requestBody": "Fitness Instructor"
+      },
+      "outputActionParameters": {
+        "200": [ {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Medication dispensed by a pharmacist to treat various medical conditions. Price varies greatly depending on medication.",
+          "Location": "London, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540883909x667702723650256900",
+          "Title": "Prescription Medication",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Comprehensive checkup by a primary care physician to assess overall health and identify potential issues.",
+          "Location": "Cardiff Wales",
+          "Price": 500,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540638942x876133958679789600",
+          "Title": "Annual Physical Exam",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Emergency transportation to a hospital for life-threatening illnesses or injuries. Typically covered by insurance.",
+          "Location": "Edinburgh, Scotland",
+          "Price": 150,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540916413x637366728226242600",
+          "Title": "Ambulance Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "A therapy that is used to preserve, enhance, or restore movement and physical function impaired or threatened by disease, injury, or disability and that utilizes therapeutic exercise, physical modalities (such as massage and electrotherapy), assistive devices, and patient education and training.",
+          "Location": "Belfast, Northern Ireland",
+          "Price": 15,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1718173139499x334423535289630700",
+          "Title": "Physical Therapy - Home Service",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Skilled nursing care provided in the comfort of your own home for post-surgical recovery, chronic disease management, and daily living assistance.",
+          "Location": "Brighton, England",
+          "Price": 50,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540744656x998266082606186500",
+          "Title": "In-Home Nursing Care",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment program designed to improve mobility, strength, and function following injury, surgery, or chronic conditions.",
+          "Location": "Portree, Isle of Skye, Scotland",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540989363x381627335906426900",
+          "Title": "Physical Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Blood work, urine tests, and other analyses to diagnose medical conditions and monitor health.",
+          "Location": "Manchester, England",
+          "Price": 58,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540951063x772396240541319200",
+          "Title": "Laboratory Testing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Sanitation and Disinfection Services",
+          "Location": "Newcastle upon Tyne, England",
+          "Price": 100,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1719147013016x753356429587120100",
+          "Title": "General Cleaning and Disinfection Services",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Care",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Treatment for non-life-threatening illnesses or injuries requiring immediate attention but not an emergency room visit.",
+          "Location": "Durham, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540677278x311424436815265800",
+          "Title": "Urgent Care Visit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Virtual consultation with a doctor for non-emergency medical advice, prescription refills, and basic health concerns.",
+          "Location": "Pembrokeshire Coast National Park, Wales",
+          "Price": 80,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540782979x581981327951134700",
+          "Title": "Online Doctor Consultation",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Creation of a customized diet plan by a registered dietician based on individual needs and health goals.",
+          "Location": "Glasgow, Scotland",
+          "Price": 300,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540833193x289014204398567400",
+          "Title": "Personalized Nutrition Plan",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 0,
+            "_seconds": 1720616100
+          },
+          "Description": "Individual or group therapy session with a licensed therapist for emotional well-being and mental health concerns.",
+          "Location": "Canterbury, Kent, England",
+          "Price": 200,
+          "Provider": "Daniel Valmoria",
+          "Service ID": "1720540714217x778805514453385200",
+          "Title": "Mental Health Therapy Session",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Date Created": {
+            "_nanoseconds": 134000000,
+            "_seconds": 1720398277
+          },
+          "Description": "A fitness instructor, also known as a personal trainer, provides training and instruction of fitness programs to individuals and groups. The fitness instructor engages clients in exercise routines and weight loss programs, and helps them to reach their individual goals.",
+          "Location": "Cambridge, England",
+          "Price": 150,
+          "Provider": "Felmar Salon",
+          "Service ID": "1720540714217x778805514453385321",
+          "Title": "Fitness instructor",
+          "URL": "https://biocryptricks.com"
+        } ]
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "The cost? Let's just say a session with a top-tier Cryptician isn't cheap, my friend. We're talking £150 per session for a fitness instructor to whip your lazy Crypt into shape. It's a small price to pay for your health, don't you think? Of course, you could always opt for the budget-friendly \"gym at home\" quest, but I doubt it would have the same motivational impact as a Cryptician yelling at you. Now what's it gonna be, my friend?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I need some gear to help me look the part."
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/f681bde5-561a-4939-872a-2bd908391d51",
+      "action": "listProducts",
+      "outputParameters": [ {
+        "name": "200",
+        "value": [ {
+          "Category": "Health",
+          "Description": "Kit containing essential medical supplies for minor injuries and emergencies.",
+          "Price": 10,
+          "Product ID": "1715935385743x123771248671981570",
+          "Product Name": "First Aid Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Overnight sleep study to diagnose sleep disorders such as sleep apnea",
+          "Price": 20,
+          "Product ID": "1715953062393x337869595276476400",
+          "Product Name": "Sleep Study",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Spinal manipulation and adjustment by a chiropractor to treat musculoskeletal issues.",
+          "Price": 42,
+          "Product ID": "1715952914759x143259619484499970",
+          "Product Name": "Chiropractic Adjustment",
+          "URL": "https://biocryptricks.com/version-test"
+        }, {
+          "Category": "Health",
+          "Description": "Full-body skin examination by a dermatologist to check for signs of skin cancer",
+          "Price": 30,
+          "Product ID": "1717512599386x268253503114969100",
+          "Product Name": "Skincare cancer screening",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for measuring body temperature.",
+          "Price": 5,
+          "Product ID": "1715935431961x583090904467505200",
+          "Product Name": "Thermometer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Various types of dressings for wound care, including adhesive bandages, gauze, and specialized wound dressings.",
+          "Price": 10,
+          "Product ID": "1715948803261x261748464819896320",
+          "Product Name": "Wound Dressing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Inserts for shoes to provide support and alleviate foot pain.",
+          "Price": 10,
+          "Product ID": "1715949340004x537731365838520300",
+          "Product Name": "Orthopedic Shoe Inserts",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Alcohol-based hand sanitizer for disinfection and hygiene.",
+          "Price": 2,
+          "Product ID": "1715948952531x424345463802036200",
+          "Product Name": "Hand Sanitizer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Devices for delivering medication directly into the lungs for respiratory conditions like asthma or COPD.",
+          "Price": 10,
+          "Product ID": "1715948626069x544451387237859300",
+          "Product Name": "Inhalers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for monitoring blood glucose levels for diabetic patients.",
+          "Price": 40,
+          "Product ID": "1715948461121x528375391408619500",
+          "Product Name": "Digital Blood Glucose Monitor",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Containers for organizing and managing daily medications.",
+          "Price": 5,
+          "Product ID": "1715949143607x880164419073474600",
+          "Product Name": "Pill Organizers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Personal emergency response system for individuals with medical conditions or seniors.",
+          "Price": 20,
+          "Product ID": "1715949412665x842969502574444500",
+          "Product Name": "Medical Alert System",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Kit containing tools or drops for removing excess ear wax at home.",
+          "Price": 5,
+          "Product ID": "1715948870245x517835155299106800",
+          "Product Name": "Ear Wax Removal Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Supportive braces for joints and muscles to aid in injury recovery or provide stabilization.",
+          "Price": 20,
+          "Product ID": "1715650476007x471870706818744300",
+          "Product Name": "Orthopedic Braces",
+          "URL": "https://biocryptricks.com"
+        } ]
+      } ],
+      "outputActionParameters": {
+        "200": [ {
+          "Category": "Health",
+          "Description": "Kit containing essential medical supplies for minor injuries and emergencies.",
+          "Price": 10,
+          "Product ID": "1715935385743x123771248671981570",
+          "Product Name": "First Aid Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Overnight sleep study to diagnose sleep disorders such as sleep apnea",
+          "Price": 20,
+          "Product ID": "1715953062393x337869595276476400",
+          "Product Name": "Sleep Study",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Spinal manipulation and adjustment by a chiropractor to treat musculoskeletal issues.",
+          "Price": 42,
+          "Product ID": "1715952914759x143259619484499970",
+          "Product Name": "Chiropractic Adjustment",
+          "URL": "https://biocryptricks.com/version-test"
+        }, {
+          "Category": "Health",
+          "Description": "Full-body skin examination by a dermatologist to check for signs of skin cancer",
+          "Price": 30,
+          "Product ID": "1717512599386x268253503114969100",
+          "Product Name": "Skincare cancer screening",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for measuring body temperature.",
+          "Price": 5,
+          "Product ID": "1715935431961x583090904467505200",
+          "Product Name": "Thermometer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Various types of dressings for wound care, including adhesive bandages, gauze, and specialized wound dressings.",
+          "Price": 10,
+          "Product ID": "1715948803261x261748464819896320",
+          "Product Name": "Wound Dressing",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Inserts for shoes to provide support and alleviate foot pain.",
+          "Price": 10,
+          "Product ID": "1715949340004x537731365838520300",
+          "Product Name": "Orthopedic Shoe Inserts",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Alcohol-based hand sanitizer for disinfection and hygiene.",
+          "Price": 2,
+          "Product ID": "1715948952531x424345463802036200",
+          "Product Name": "Hand Sanitizer",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Devices for delivering medication directly into the lungs for respiratory conditions like asthma or COPD.",
+          "Price": 10,
+          "Product ID": "1715948626069x544451387237859300",
+          "Product Name": "Inhalers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Device for monitoring blood glucose levels for diabetic patients.",
+          "Price": 40,
+          "Product ID": "1715948461121x528375391408619500",
+          "Product Name": "Digital Blood Glucose Monitor",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Containers for organizing and managing daily medications.",
+          "Price": 5,
+          "Product ID": "1715949143607x880164419073474600",
+          "Product Name": "Pill Organizers",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Personal emergency response system for individuals with medical conditions or seniors.",
+          "Price": 20,
+          "Product ID": "1715949412665x842969502574444500",
+          "Product Name": "Medical Alert System",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Kit containing tools or drops for removing excess ear wax at home.",
+          "Price": 5,
+          "Product ID": "1715948870245x517835155299106800",
+          "Product Name": "Ear Wax Removal Kit",
+          "URL": "https://biocryptricks.com"
+        }, {
+          "Category": "Health",
+          "Description": "Supportive braces for joints and muscles to aid in injury recovery or provide stabilization.",
+          "Price": 20,
+          "Product ID": "1715650476007x471870706818744300",
+          "Product Name": "Orthopedic Braces",
+          "URL": "https://biocryptricks.com"
+        } ]
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Look the part, eh?  Okay, you're gonna need some swagger. Look, a good first-aid kit is essential for a Trickster in Vitalia. It shows you're ready for anything. And don't forget some orthopedic braces to make sure you're good to go. You know, gotta look like a champion before you become one! I guess, how much would you want to spend for this? Let me know!"
+    }
+  }, {
+    "userUtterance": {
+      "text": "How I am doing with my heart rate?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/69f0fef7-e066-46fd-a240-428209dd2691",
+      "action": "get_user_profile",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "profile_id": "FEL"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "Address": "Kalantas Rd., Zambowood, Zamboanga City",
+          "Age": 44,
+          "Allergies": "No known allergies",
+          "Birth Date": "Mon, 31 Dec 1979 16:00:00 GMT",
+          "Category": "Body",
+          "Chronic Illnes": "None",
+          "Civil Status": "Married",
+          "Contact Number": "09360479316",
+          "Diet": "Balanced Diet",
+          "Email": "salon.felimar@gmail.com",
+          "Exercise": "Regularly goes to the gym",
+          "Faction": "Biopunk",
+          "First Name": "Filimon",
+          "Gender": "Male",
+          "Height": "170cm",
+          "Immunizations": "Up-to-date",
+          "Last Name": "Dalisay",
+          "Level": "Morphix",
+          "Lifestyle": "Non-smoker, Occasional Drinker",
+          "Medical History": {
+            "History 1": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Sat, 01 Jan 2005 02:00:00 GMT",
+              "Findings": "Appendectomy",
+              "Physician": "Dr. Smith",
+              "Recommendation": "Surgery"
+            },
+            "History 2": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Tue, 01 Jan 1985 12:00:00 GMT",
+              "Findings": "Tonsillectomy",
+              "Physician": "Dr. Jone",
+              "Recommendation": "Surgery"
+            },
+            "History 3": {
+              "Action Taken": "Using Albuterol inhaler as prescribed",
+              "Date": "Thu, 31 Dec 2009 23:30:00 GMT",
+              "Findings": "Asthma",
+              "Physician": "Dr. Lee",
+              "Recommendation": "Continue using Albuterol inhaler as needed"
+            }
+          },
+          "Metric": "Heart Rate",
+          "Metric Purpose": "To measure the number of times the heart beats per minute, providing insights into cardiovascular health, fitness levels, and stress response",
+          "Metric Unit of Measure": " Beats per minute (bpm",
+          "Occupation": "Software Engineer",
+          "Religion": "Roman Catholic",
+          "Result": [ {
+            "bpm": 80,
+            "date": "Sun, 07 Jul 2024 23:26:45 GMT"
+          }, {
+            "bpm": 86,
+            "date": "Tue, 09 Jul 2024 00:28:49 GMT"
+          }, {
+            "bpm": 80,
+            "date": "Wed, 10 Jul 2024 01:30:29 GMT"
+          } ],
+          "Subcategory ": "Health Monitoring",
+          "Weight": "75kg ",
+          "client ID": "CLIENT-001",
+          "userId": "RUMdbCWna5b9TjcDum9PBTbEfDl2"
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "profile_id": "FEL"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "Address": "Kalantas Rd., Zambowood, Zamboanga City",
+          "Age": 44,
+          "Allergies": "No known allergies",
+          "Birth Date": "Mon, 31 Dec 1979 16:00:00 GMT",
+          "Category": "Body",
+          "Chronic Illnes": "None",
+          "Civil Status": "Married",
+          "Contact Number": "09360479316",
+          "Diet": "Balanced Diet",
+          "Email": "salon.felimar@gmail.com",
+          "Exercise": "Regularly goes to the gym",
+          "Faction": "Biopunk",
+          "First Name": "Filimon",
+          "Gender": "Male",
+          "Height": "170cm",
+          "Immunizations": "Up-to-date",
+          "Last Name": "Dalisay",
+          "Level": "Morphix",
+          "Lifestyle": "Non-smoker, Occasional Drinker",
+          "Medical History": {
+            "History 1": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Sat, 01 Jan 2005 02:00:00 GMT",
+              "Findings": "Appendectomy",
+              "Physician": "Dr. Smith",
+              "Recommendation": "Surgery"
+            },
+            "History 2": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Tue, 01 Jan 1985 12:00:00 GMT",
+              "Findings": "Tonsillectomy",
+              "Physician": "Dr. Jone",
+              "Recommendation": "Surgery"
+            },
+            "History 3": {
+              "Action Taken": "Using Albuterol inhaler as prescribed",
+              "Date": "Thu, 31 Dec 2009 23:30:00 GMT",
+              "Findings": "Asthma",
+              "Physician": "Dr. Lee",
+              "Recommendation": "Continue using Albuterol inhaler as needed"
+            }
+          },
+          "Metric": "Heart Rate",
+          "Metric Purpose": "To measure the number of times the heart beats per minute, providing insights into cardiovascular health, fitness levels, and stress response",
+          "Metric Unit of Measure": " Beats per minute (bpm",
+          "Occupation": "Software Engineer",
+          "Religion": "Roman Catholic",
+          "Result": [ {
+            "bpm": 80,
+            "date": "Sun, 07 Jul 2024 23:26:45 GMT"
+          }, {
+            "bpm": 86,
+            "date": "Tue, 09 Jul 2024 00:28:49 GMT"
+          }, {
+            "bpm": 80,
+            "date": "Wed, 10 Jul 2024 01:30:29 GMT"
+          } ],
+          "Subcategory ": "Health Monitoring",
+          "Weight": "75kg ",
+          "client ID": "CLIENT-001",
+          "userId": "RUMdbCWna5b9TjcDum9PBTbEfDl2"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Well, I've taken a peek at your profile, and your heart rate seems to be in the \"pretty average\" zone, which is as exciting as a dry piece of toast.  To really spice things up,  you need to push yourself. We’re Biopunks, remember? It's all about pushing your limits! What have you done to improve your heart rate since last we talked?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I need help with my stamina."
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/biocryptricks/locations/us/agents/1f264ad9-03b8-48d1-9f9e-9394b096c7f5/tools/69f0fef7-e066-46fd-a240-428209dd2691",
+      "action": "get_user_profile",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "profile_id": "FEL"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "Address": "Kalantas Rd., Zambowood, Zamboanga City",
+          "Age": 44,
+          "Allergies": "No known allergies",
+          "Birth Date": "Mon, 31 Dec 1979 16:00:00 GMT",
+          "Category": "Body",
+          "Chronic Illnes": "None",
+          "Civil Status": "Married",
+          "Contact Number": "09360479316",
+          "Diet": "Balanced Diet",
+          "Email": "salon.felimar@gmail.com",
+          "Exercise": "Regularly goes to the gym",
+          "Faction": "Biopunk",
+          "First Name": "Filimon",
+          "Gender": "Male",
+          "Height": "170cm",
+          "Immunizations": "Up-to-date",
+          "Last Name": "Dalisay",
+          "Level": "Morphix",
+          "Lifestyle": "Non-smoker, Occasional Drinker",
+          "Medical History": {
+            "History 1": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Sat, 01 Jan 2005 02:00:00 GMT",
+              "Findings": "Appendectomy",
+              "Physician": "Dr. Smith",
+              "Recommendation": "Surgery"
+            },
+            "History 2": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Tue, 01 Jan 1985 12:00:00 GMT",
+              "Findings": "Tonsillectomy",
+              "Physician": "Dr. Jone",
+              "Recommendation": "Surgery"
+            },
+            "History 3": {
+              "Action Taken": "Using Albuterol inhaler as prescribed",
+              "Date": "Thu, 31 Dec 2009 23:30:00 GMT",
+              "Findings": "Asthma",
+              "Physician": "Dr. Lee",
+              "Recommendation": "Continue using Albuterol inhaler as needed"
+            }
+          },
+          "Metric": "Heart Rate",
+          "Metric Purpose": "To measure the number of times the heart beats per minute, providing insights into cardiovascular health, fitness levels, and stress response",
+          "Metric Unit of Measure": " Beats per minute (bpm",
+          "Occupation": "Software Engineer",
+          "Religion": "Roman Catholic",
+          "Result": [ {
+            "bpm": 80,
+            "date": "Sun, 07 Jul 2024 23:26:45 GMT"
+          }, {
+            "bpm": 86,
+            "date": "Tue, 09 Jul 2024 00:28:49 GMT"
+          }, {
+            "bpm": 80,
+            "date": "Wed, 10 Jul 2024 01:30:29 GMT"
+          } ],
+          "Subcategory ": "Health Monitoring",
+          "Weight": "75kg ",
+          "client ID": "CLIENT-001",
+          "userId": "RUMdbCWna5b9TjcDum9PBTbEfDl2"
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "profile_id": "FEL"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "Address": "Kalantas Rd., Zambowood, Zamboanga City",
+          "Age": 44,
+          "Allergies": "No known allergies",
+          "Birth Date": "Mon, 31 Dec 1979 16:00:00 GMT",
+          "Category": "Body",
+          "Chronic Illnes": "None",
+          "Civil Status": "Married",
+          "Contact Number": "09360479316",
+          "Diet": "Balanced Diet",
+          "Email": "salon.felimar@gmail.com",
+          "Exercise": "Regularly goes to the gym",
+          "Faction": "Biopunk",
+          "First Name": "Filimon",
+          "Gender": "Male",
+          "Height": "170cm",
+          "Immunizations": "Up-to-date",
+          "Last Name": "Dalisay",
+          "Level": "Morphix",
+          "Lifestyle": "Non-smoker, Occasional Drinker",
+          "Medical History": {
+            "History 1": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Sat, 01 Jan 2005 02:00:00 GMT",
+              "Findings": "Appendectomy",
+              "Physician": "Dr. Smith",
+              "Recommendation": "Surgery"
+            },
+            "History 2": {
+              "Action Taken": "Surgery Performed",
+              "Date": "Tue, 01 Jan 1985 12:00:00 GMT",
+              "Findings": "Tonsillectomy",
+              "Physician": "Dr. Jone",
+              "Recommendation": "Surgery"
+            },
+            "History 3": {
+              "Action Taken": "Using Albuterol inhaler as prescribed",
+              "Date": "Thu, 31 Dec 2009 23:30:00 GMT",
+              "Findings": "Asthma",
+              "Physician": "Dr. Lee",
+              "Recommendation": "Continue using Albuterol inhaler as needed"
+            }
+          },
+          "Metric": "Heart Rate",
+          "Metric Purpose": "To measure the number of times the heart beats per minute, providing insights into cardiovascular health, fitness levels, and stress response",
+          "Metric Unit of Measure": " Beats per minute (bpm",
+          "Occupation": "Software Engineer",
+          "Religion": "Roman Catholic",
+          "Result": [ {
+            "bpm": 80,
+            "date": "Sun, 07 Jul 2024 23:26:45 GMT"
+          }, {
+            "bpm": 86,
+            "date": "Tue, 09 Jul 2024 00:28:49 GMT"
+          }, {
+            "bpm": 80,
+            "date": "Wed, 10 Jul 2024 01:30:29 GMT"
+          } ],
+          "Subcategory ": "Health Monitoring",
+          "Weight": "75kg ",
+          "client ID": "CLIENT-001",
+          "userId": "RUMdbCWna5b9TjcDum9PBTbEfDl2"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "So, your stamina, eh? I've got a feeling your biohacking skills need a little upgrade. It seems you're all about that \"regular gym\" routine, but I'm sensing there's a couch potato lurking beneath that surface. A true Biopunk isn’t content with just the average gym experience! To push your stamina,  you should try adding high-intensity interval training (HIIT) to your routine. It's like a mini-game, except instead of winning Gryts you win more stamina.  You'll level up your Crypt, and your real-world life in no time. Maybe you’ll get strong enough to handle the bio-augmentation quest, you weakling! What have you been doing to push your stamina lately?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "What steps do I need to improve my stamina?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "You need steps for stamina, huh? It's a good thing you're a Biopunk,  because those \"regular gym\" sessions need a boost. Listen, real Biopunks know that the secret to incredible stamina is to push your limits! What kind of steps are we talking here?  You need those long jogs,  the heavy lifting! You might also want to add some of those strength training quest to your game.  And don't be afraid to get outside of that \"regular gym\" routine. That's where the true stamina growth is!"
+    }
+  } ],
+  "displayName": "Sample 2",
+  "retrievalStrategy": "STATIC",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

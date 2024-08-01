@@ -1,0 +1,9 @@
+{
+  "name": "69f0fef7-e066-46fd-a240-428209dd2691",
+  "displayName": "User Tool",
+  "description": "Get user profile",
+  "openApiSpec": {
+  
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

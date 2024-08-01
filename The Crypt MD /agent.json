@@ -1,0 +1,18 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
+  "projectNumber": 86198546822,
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    }
+  },
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT",
+  "genAppBuilderSettings": {
+    "engine": "projects/86198546822/locations/us/collections/default_collection/engines/1f264ad9-03b8-48d1-9f9e-9394b096c7f5"
+  },
+  "startPlaybook": "Default Generative Agent"
+}

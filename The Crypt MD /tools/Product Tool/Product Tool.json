@@ -1,0 +1,9 @@
+{
+  "name": "f681bde5-561a-4939-872a-2bd908391d51",
+  "displayName": "Product Tool",
+  "description": "API for products",
+  "openApiSpec": {
+  
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

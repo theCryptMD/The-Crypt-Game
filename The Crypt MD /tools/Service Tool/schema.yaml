@@ -1,0 +1,41 @@
+openapi: 3.0.0
+info:
+  title: Services  API
+  description: API for services 
+  version: 1.0.0
+
+servers:
+  - url: https://us-central1-biocryptricks.cloudfunctions.net/services
+
+paths:
+  /listServices:
+    get:
+      operationId: listServices
+      description: Use the mocked profiles file to retrieve a user profile.
+      summary: Use the mocked profiles file to retrieve a user profile.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QueryRequest'
+      responses:
+        '200':
+          description: Returns the results based on the user input profile_id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QueryResponse'
+
+components:
+  schemas:
+    QueryRequest:
+      type: object
+      properties:
+        profile_id:
+          type: string
+    QueryResponse:
+      type: object
+      properties:
+        result:
+          type: object
+
