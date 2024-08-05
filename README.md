@@ -1,4 +1,4 @@
-# The Crypt Game: Your Game Your Rules
+# The Crypt Game: Your Game. Your Rules
 
 Please look at the other repositories for the AI functionalities we have added to game
 * **Agent:** An Ai chatbot built on Google Agent Builder, powered by google gemini
