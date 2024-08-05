@@ -1,6 +1,6 @@
 # The Crypt Game: Your Game. Your Rules
 
-Please look at the other repositories for the AI functionalities we have added to game
+Please look at the other repositories for the AI functionalities we have added to the game
 * **Agent:** An Ai chatbot built on Google Agent Builder, powered by google gemini
 * **Metric Generator:** An AI functionality built on Gemini to design and health and wellness metrics for the game.
 * **Trick Generator:** An AI functionality built on Gemini to design and health and wellness hacks for the game.
