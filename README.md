@@ -1,5 +1,11 @@
 # The Crypt Game: Your Game Your Rules
 
+Please look at the other repositories for the AI functionalities we have added to game
+* **Agent:** An Ai chatbot built on Google Agent Builder, powered by google gemini
+* **Metric Generator:** An AI functionality built on Gemini to design and health and wellness metrics for the game.
+* **Trick Generator:** An AI functionality built on Gemini to design and health and wellness hacks for the game.
+* **Advice Generator:** An AI functionality built on Gemini to give insights and advice to players for each completion of a hack within for the game.
+
 The Crypt Game isn't just a game; it's a groundbreaking movement in healthcare, empowering individuals to take control of their health and wellness journey. By blending gamification with personalized health insights, we're creating a future where healthcare is engaging, proactive, and tailored to your unique needs.
 
 ## Key Value Propositions
